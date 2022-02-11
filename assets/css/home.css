@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+}
+
+.home_container{
+    position: relative;
+    height: 100%;
+
+}
+.sidebar{
+    width: 22%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    padding-top: 20px;
+
+}
+.sidebar img{
+    width: 60%;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+}
+.sidebar h2{
+    font-size: 30px; 
+}
+.sidebar h4{
+    font-size: 20px;
+    color: rgba(179, 172, 172, 0.801);
+}
+.container{
+    background-image: url("../images/home_page_bg_2.jpeg");
+    height: 100vh;
+    margin-left: 22%;
+    color: #fff;
+    position: relative;
+}
+.container_mask{
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.486)
+     
+}
+.container_text{
+    width: 100%;
+    position: absolute;
+    font-family:sans-serif, Helvetica;
+    right: 0px;
+    font-size: 24px;
+
+}
+.container .user_name{
+    font-size: 80px;
+    margin: 0px;
+    padding-top: 200px;
+}   
+.container .user_role{
+    color: rgba(192, 183, 183, 0.452);
+}
+.container b{
+    font-size: 24px;
+    margin-left: 33%;
+}
+#list1{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+#list1 li {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgba(241, 221, 221, 0.801) ;
+    border-top: 1px solid rgba(241, 221, 221, 0.808) ;
+    margin: -1px;
+}
+#list1 li.active{
+    background-color: rgba(231, 231, 240, 0.884);
+}
+li.active a:after{
+    background-color: rgb(211, 211, 13);
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+}
+#list1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
